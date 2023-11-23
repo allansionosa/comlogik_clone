@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../index/NavBar";
 
 const About = () => {
@@ -16,7 +15,7 @@ const About = () => {
               <h5 className="text-[#687280] font-bold text-[14px]">ABOUT US</h5>
               <h2 className="my-10 text-[#2E67B2] text-[27px] font-bold">
                 We are on a mission to help you solve your operational problems
-                by delivering powerful healthcare solutions that's affordable.
+                by delivering powerful healthcare solutions thats affordable.
               </h2>
               <p className="mt-3 text-[#666666] text-[16px] font-sans">
                 Since 1999, Comlogik has been existing with the primary goal of

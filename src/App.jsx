@@ -10,6 +10,7 @@ function App() {
       <HomePage />
       <Products />
       <AboutUs />
+      <Footer />
     </div>
   );
 }

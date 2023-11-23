@@ -1,4 +1,3 @@
-import React from "react";
 import { BsTelephoneFill, BsFacebook } from "react-icons/bs";
 import { FaFacebookMessenger } from "react-icons/fa";
 const Footer = () => {

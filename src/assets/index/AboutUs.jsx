@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUs = () => {
   return (
     <div>
@@ -33,7 +31,7 @@ const AboutUs = () => {
       <div className=" py-16 bg-gradient-to-t from-cyan-500 to-blue-500">
         <div className="px-8 text-center">
           <div className="text-3xl font-sans text-white font-bold">
-            Let's grab a coffee together
+            Lets grab a coffee together
           </div>
           <div>
             <p className="mt-8 text-white font-sans text-[18px]">

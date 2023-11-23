@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from "react";
-import About from "../pages/About";
+import { useEffect, useState } from "react";
+
 import { Dropdown, Space } from "antd";
-import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiOutlineSearch,
-  AiOutlineMail,
-} from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineSearch, AiOutlineMail } from "react-icons/ai";
 const NavBar = () => {
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {

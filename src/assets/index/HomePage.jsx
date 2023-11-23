@@ -126,43 +126,40 @@ const HomePage = () => {
           </h2>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <div className="pr-8">
+      <div className="flex justify-center py-10 flex-wrap gap-10">
+        <div>
           <img src="static/clients/image6.png" alt="Comlogik image" />
         </div>
-        <div className="pr-8">
+        <div>
           <img src="static/clients/image9.png" alt="Comlogik image" />
         </div>
-        <div className="pt-4 pr-8">
+        <div>
           <img src="static/clients/image7.png" alt="Comlogik image" />
         </div>
-        <div className="pr-8">
+        <div>
           <img src="static/clients/image15.png" alt="Comlogik image" />
         </div>
-        <div className="pr-8">
+        <div>
           <img src="static/clients/image13.png" alt="Comlogik image" />
         </div>
       </div>
-      <div className="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-        <div
-          uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%"
-          className="flex justify-center py-10"
-        >
-          <div className="pr-8">
+      <div>
+        <div className="flex justify-center py-10 gap-10 flex-wrap">
+          <div>
             <img src="static/clients/image14.png" alt="Comlogik image" />
           </div>
-          <div className="pr-8">
+          <div>
             <img src="static/clients/image17.jpg" alt="Comlogik image" />
           </div>
-          <div className="pr-8">
+          <div>
             <img src="static/clients/image12.png" alt="Comlogik image" />
           </div>
-          <div className="pr-8">
+          <div>
             <img src="static/clients/image10.png" alt="Comlogik image" />
           </div>
         </div>
       </div>
-      <div className="flex justify-center py-10 mx-10">
+      <div className="flex justify-center py-10 mx-10 flex-wrap">
         <div className="">
           <img src="static/clients/image16.png" alt="Comlogik image" />
         </div>

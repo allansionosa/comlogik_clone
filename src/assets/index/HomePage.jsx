@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 
 const advantages = [
   {
@@ -87,10 +87,14 @@ const HomePage = () => {
               <div className=" md:flex-col lg:flex-row gap-5 justify-center">
                 <div>
                   <a className=" w-full h-12  bg-[#cc3396]  rounded-lg focus:shadow-outline hover:bg-[#d865b0] px-8 py-3">
-                    <Typed
-                      strings={[
+                    <TypeAnimation
+                      preRenderFirstString={true}
+                      sequence={[
+                        500,
                         "REQUEST A QUOTE",
+                        500,
                         "REQUEST A DEMO",
+                        500,
                         "REQUEST A BROCHURE",
                       ]}
                       typeSpeed={120}
